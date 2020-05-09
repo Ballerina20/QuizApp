@@ -127,7 +127,7 @@ const showResults = () => {
         </h2>
         <p class="score">${points}</p>
         <button id="btn__reload" class="btn__reload next">
-            <a href ="game.html"> Return to homepage</a>
+            <a href ="index.html"> Return to homepage</a>
         </button>
     </div>
     `;
