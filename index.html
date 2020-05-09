@@ -5,46 +5,77 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="stylesheet" type="text/css" href="style.css">
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-	<title>CS Quiz</title>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+
+
+  <title>Page1</title>
 </head>
 
 
-<body>
+<body class="">
+  
+
   <div class="test">
- <h2> CS QUIZ &nbsp;&nbsp;
- <a href="game.html" class="first"> Home </a> &nbsp;
-  <a href="#" class="first"> Services </a>  &nbsp;
-  <a href="#" class="first"> About us </a>  &nbsp; </h2>
-<div class="sub">
-<a href="login page.html"><input type="Submit" value="Login"></a> &nbsp;
-<a href="Register page.html"><input type="Submit" value="Register"></a>
-</div>
-  </div>
-<div class="con">
-<h1>Welcome!!!!!<br><br>
-You must Login to take Quiz.&nbsp; <a href="login page.html">Login</a></h1>
-<div class="map">
-  <h1>Computer Science based Quiz</h1>
-  <img src="images.jpg">
-</div>
+    <h2> CS QUIZ &nbsp;&nbsp;
+    <a href="game.html" class="first"> Home </a> &nbsp;
+     <a href="#" class="first"> Services </a>  &nbsp;
+     <a href="#" class="first"> About us </a>  &nbsp; </h2>
+   <div class="sub">
+   <a href="login page.html"><input type="Submit" value="Login"></a> &nbsp;
+   <a href="Register page.html"><input type="Submit" value="Register"></a>
+   </div>
+     </div>
 
-</div>
-<div class="last">
-<h2 style="margin-left: 19px;">CS QUIZ</h2>
-<p style="margin-left: 19px;">About CS Quiz.com<br>
 
-<div class="sap" style="text-decoration: beige;">
-SUBSCRIBE
-Get Monthly updates on CS Quiz<br><br>
-<input type="submit" value="Email">
-<input type="submit" value="Subscribe">
-</div>
+     <section id="quiz" class="quiz">
+			
+     <div class="quiz__wrapper">
+      
+       <h2 class="quiz__sub-heading">
+        <h1> The CS Quiz App</h1></h2>
+       <button class="quiz-start" id="quiz-start">Start Quiz</button>
+     </div>
+     
+     <div class="quiz__box hide">
+       <div class="quiz__tracker">
+         <p class="quiz__counter">Question: 1/5</p>
+         <p class="quiz__score">Score: 0</p> 
+       </div>
 
-&copysr; Copyright 2020 CS Quiz - All Right Reserved<br>
-</div>
+       <div class="quiz__text">
+         <h1 class="quiz__heading"> Which one is correct?</h1>
+       </div>
 
-</body>
-</html>
+       <div class="quiz__options">
+         <button class="quiz__options-list"></button>
+         <button class="quiz__options-list">	</button>
+         <button class="quiz__options-list"></button>
+         <button class="quiz__options-list"></button>
+         
+       </div>
+       <button id="next" class="next">Next</button>
+     </div>
+
+     
+   </section>
+
+
+
+   <footer class="footer footer-fix" style="background-color: black;">   
+    <p class="footer__text">&copysr; Copyright 2020 CS Quiz - All Right Reserved <span id="year"></span>.</p>
+    
+    <p class="footer__text">
+    
+       
+        
+        <i class="fas fa-code"></i> 
+      
+    </p>
+      
+  </footer>
+  
+    <script src="script.js"></script>
+    </body>
+    </html>
